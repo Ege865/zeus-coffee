@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="tr" data-type="place">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zeus Coffee · Süleymanpaşa, Tekirdağ | Kahve, Tatlı ve Menü</title>
+<meta name="description" content="Zeus Coffee, Tekirdağ Süleymanpaşa'da İstiklal Marşı Caddesi'nde. Espresso bazlı kahveler, soğuk kahveler, çaylar ve Zeus Waffle. Menü, fiyatlar, çalışma saatleri ve yol tarifi.">
+<meta name="page-type" content="place">
+<meta name="site-kind" content="other">
+<meta name="page-kind" content="place">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="canonical" href="https://ege865.github.io/zeus-coffee/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="Zeus Coffee · More Than Coffee.">
+<meta property="og:description" content="Süleymanpaşa / Tekirdağ'da kahve, tatlı ve sakin bir mola. Menü, saatler ve yol tarifi.">
+<meta property="og:image" content="https://ege865.github.io/zeus-coffee/img/hero-zeus.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23FF0063' d='M19 1 5 18h9l-3 13 16-19h-9z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-zeus.jpg">
+<script>document.documentElement.classList.add('js','m-enter')</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Zeus Coffee",
+  "image": "https://ege865.github.io/zeus-coffee/img/hero-zeus.jpg",
+  "telephone": "+90 505 995 93 87",
+  "priceRange": "₺₺",
+  "servesCuisine": ["Kahve", "Tatlı"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Atatürk Mah. İstiklal Marşı Cad. No:42/C",
+    "addressLocality": "Süleymanpaşa",
+    "addressRegion": "Tekirdağ",
+    "postalCode": "59030",
+    "addressCountry": "TR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 40.9887252, "longitude": 27.5392847 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "53" },
+  "sameAs": ["https://www.instagram.com/zeuscoffee_59/"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "23:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "23:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "14:00", "closes": "23:00" }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --paper:#F6F5F1;--paper-2:#F5F2EE;          /* sitenin baskın beyazı: illüstrasyonların kağıt tonu */
+  --white:#FFFFFF;
+  --ink:#000000;            /* vurgu 1 */
+  --pink:#FF0063;           /* vurgu 2 */
+  --pink-deep:#D6005A;      /* küçük pembe metin ve dolu buton için (AA kontrast) */
+  --ink-2:#2B2A28;
+  --muted:#5E5B56;
+  --line:#1A1A1A;
+  --hair:rgba(0,0,0,.12);
+  --serif:"DM Serif Display", "Times New Roman", serif;
+  --sans:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap:1280px;
+  --gutter:clamp(20px,4.5vw,64px);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --nav-h:84px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h);-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+::selection{background:var(--pink);color:#fff}
+:focus-visible{outline:2px solid var(--pink);outline-offset:3px;border-radius:4px}
+html{scrollbar-color:#1a1a1a var(--paper)}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--paper)}
+::-webkit-scrollbar-thumb{background:#1a1a1a;border-radius:10px;border:2px solid var(--paper)}
+
+.skip{position:absolute;left:16px;top:-60px;z-index:100;background:var(--ink);color:#fff;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:600}
+.skip:focus{top:12px}
+.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gutter)}
+
+/* ---------- Tipografi ---------- */
+.display{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing:-.02em;color:var(--ink);text-wrap:balance}
+.display em{font-style:normal;color:var(--pink)}
+.h-hero{font-size:clamp(3.4rem,7.2vw,6rem)}
+.h-sec{font-size:clamp(2.8rem,5.4vw,5rem)}
+.caps{font-family:var(--sans);font-weight:500;text-transform:uppercase;letter-spacing:.32em;font-size:clamp(.78rem,1.05vw,.95rem);color:var(--ink)}
+.eyebrow{display:flex;align-items:center;gap:18px;font-weight:600;text-transform:uppercase;letter-spacing:.2em;font-size:.8rem;color:var(--ink);margin-bottom:26px}
+.eyebrow::after{content:"";width:64px;height:1px;background:var(--line)}
+.lede{font-size:clamp(1rem,1.25vw,1.125rem);line-height:1.65;color:var(--ink-2);max-width:34ch}
+
+/* ---------- Butonlar ---------- */
+.btn{--b:var(--pink);display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:52px;padding:0 30px;border-radius:999px;font:600 1rem/1 var(--sans);text-decoration:none;color:var(--ink);border:1.5px solid var(--b);background:transparent;cursor:pointer;
+  transition:background-color .35s var(--ease),color .35s var(--ease),transform .2s var(--ease),box-shadow .35s var(--ease)}
+.btn svg{width:20px;height:20px;flex:none;transition:transform .4s var(--ease)}
+.btn:hover{background:var(--pink-deep);border-color:var(--pink-deep);color:#fff;box-shadow:0 10px 24px -12px rgba(255,0,99,.65);transform:translateY(-1px)}
+.btn:hover svg{transform:translateX(4px)}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn--fill{background:var(--pink-deep);border-color:var(--pink-deep);color:#fff}
+.btn--fill:hover{background:var(--ink);border-color:var(--ink)}
+.btn--sm{min-height:44px;padding:0 20px;font-size:.92rem;gap:10px}
+.btn--sm svg{width:18px;height:18px}
+
+/* ---------- Header ---------- */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;height:var(--nav-h);display:flex;align-items:center;transition:background-color .35s var(--ease),box-shadow .35s var(--ease),height .35s var(--ease)}
+.nav.is-stuck{background:rgba(246,245,241,.92);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);box-shadow:0 1px 0 var(--hair);--nav-h:70px;height:70px}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+.logo svg{width:22px;height:38px;flex:none}
+.logo b{font-family:var(--serif);font-weight:400;line-height:.86;font-size:1.55rem;letter-spacing:-.01em;display:flex;flex-direction:column}
+.logo b small{font-size:1.06rem;letter-spacing:.02em}
+.nav ul{display:flex;gap:clamp(18px,2.4vw,36px);list-style:none}
+.nav ul a{position:relative;text-decoration:none;font-size:.95rem;font-weight:500;padding:12px 0}
+.nav ul a::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:1.5px;background:var(--pink);transform:scaleX(0);transform-origin:right;transition:transform .45s var(--ease)}
+.nav ul a:hover::after,.nav ul a[aria-current="true"]::after{transform:scaleX(1);transform-origin:left}
+.menu-btn{display:none;width:48px;height:48px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;cursor:pointer;align-items:center;justify-content:center}
+.menu-btn span{display:block;width:18px;height:1.5px;background:var(--ink);position:relative;transition:background .2s}
+.menu-btn span::before,.menu-btn span::after{content:"";position:absolute;left:0;width:18px;height:1.5px;background:var(--ink);transition:transform .35s var(--ease)}
+.menu-btn span::before{top:-6px}.menu-btn span::after{top:6px}
+.menu-btn[aria-expanded="true"] span{background:transparent}
+.menu-btn[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+
+/* ---------- Bölüm iskeleti (sol metin / sağda kenara taşan illüstrasyon) ---------- */
+.panel{position:relative;min-height:max(100svh,680px);display:flex;align-items:center;overflow:hidden;isolation:isolate}
+.panel .wrap{position:relative;z-index:2}
+.copy{max-width:520px;padding-block:clamp(110px,14vh,150px) clamp(60px,10vh,110px)}
+.copy > * + .btn,.copy > .lede + .btn{margin-top:34px}
+.art{position:absolute;z-index:1;right:0;top:0;bottom:0;width:62%;display:flex;align-items:flex-end;justify-content:flex-end;pointer-events:none}
+.art .scene{width:100%;height:100%;object-fit:cover;object-position:left bottom;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16%);mask-image:linear-gradient(90deg,transparent 0,#000 16%)}
+
+.scene{display:block;width:100%;height:100%}
+.scene svg{display:block;width:100%;height:100%;overflow:visible}
+.art .scene{pointer-events:auto}
+.scene .sparks,.scene .bolt,.scene .ring,.scene .flash,.scene .burst,.scene .ice,.scene .rim-drops,.scene .bubbles{opacity:0}
+/* Hero */
+.hero .art{width:min(66%,1100px)}
+.hero .art .scene{object-fit:contain;object-position:right bottom;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 18%);mask-image:linear-gradient(90deg,transparent 0,#000 18%)}
+.hero .copy{max-width:480px}
+.rule-title{display:flex;align-items:center;gap:24px;margin-bottom:26px;max-width:390px}
+.rule-title::before,.rule-title::after{content:"";flex:1;height:1px;background:var(--line)}
+.hero .caps{margin-top:30px}
+.hero .btn{margin-top:42px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:40px;font-size:.9rem;color:var(--muted)}
+.hero-meta span{display:inline-flex;align-items:center;gap:8px}
+.hero-meta svg{width:16px;height:16px;color:var(--pink-deep);flex:none}
+
+/* Menü tanıtım paneli */
+.p-menu .art{width:46%;max-width:620px;right:max(0px,calc((100vw - var(--wrap))/2 - 40px))}
+.p-menu .art .scene{object-fit:contain;object-position:right center;-webkit-mask-image:linear-gradient(180deg,#000 88%,transparent);mask-image:linear-gradient(180deg,#000 88%,transparent)}
+.stats{display:flex;gap:clamp(22px,3vw,44px);margin-top:36px;padding-top:26px;border-top:1px solid var(--hair);max-width:460px}
+.stats div{display:flex;flex-direction:column;gap:2px}
+.stats b{font-family:var(--serif);font-weight:400;font-size:2.1rem;line-height:1;color:var(--ink);font-variant-numeric:lining-nums}
+.stats span{font-size:.85rem;color:var(--muted)}
+
+/* ---------- Tam menü ---------- */
+.menu{position:relative;padding-block:clamp(90px,12vh,140px)}
+.menu-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,80px);align-items:start}
+.menu-figure{position:sticky;top:calc(var(--nav-h) + 20px);display:flex;flex-direction:column;gap:28px}
+.menu-figure .frame{overflow:hidden;border-radius:4px}
+.menu-figure .scene{width:100%;aspect-ratio:800/926;object-fit:cover;transition:transform .9s var(--ease);
+  -webkit-mask-image:radial-gradient(120% 92% at 50% 46%,#000 62%,transparent 100%);mask-image:radial-gradient(120% 92% at 50% 46%,#000 62%,transparent 100%)}
+.menu-figure .frame:hover .scene{transform:scale(1.025)}
+.menu-head .display{margin-bottom:18px}
+.menu-head .lede{max-width:44ch}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:34px 0 8px;list-style:none}
+.chips a{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--ink);text-decoration:none;font-size:.9rem;font-weight:500;transition:background-color .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease),transform .2s var(--ease)}
+.chips a:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
+.chips a:active{transform:translateY(0) scale(.97)}
+.cat{padding-top:48px;scroll-margin-top:calc(var(--nav-h) + 16px)}
+.cat-title{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1.5px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+.cat-title h3{font-family:var(--serif);font-weight:400;font-size:clamp(1.9rem,2.6vw,2.4rem);line-height:1.05;letter-spacing:-.01em}
+.cat-title h3 em{font-style:normal;color:var(--pink)}
+.cat-title span{font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;white-space:nowrap}
+.items{list-style:none;display:grid;grid-template-columns:1fr 1fr;column-gap:44px}
+.items li{display:flex;align-items:baseline;gap:10px;padding:13px 0;border-bottom:1px solid var(--hair);font-size:1rem}
+.items li .n{font-weight:500;color:var(--ink)}
+.items li .n small{display:block;font-weight:400;font-size:.82rem;color:var(--muted);margin-top:1px}
+.items li i{flex:1;min-width:16px;border-bottom:1px dotted rgba(0,0,0,.35);transform:translateY(-4px)}
+.items li .p{font-variant-numeric:tabular-nums lining-nums;font-weight:600;white-space:nowrap}
+.items li .p::after{content:" ₺";font-weight:500;color:var(--muted)}
+.items li.sig .n::before{content:"";display:inline-block;width:8px;height:13px;margin-right:8px;background:var(--pink);clip-path:polygon(60% 0,0 60%,45% 60%,30% 100%,100% 38%,55% 38%);vertical-align:-1px}
+.menu-note{margin-top:30px;font-size:.88rem;color:var(--muted)}
+
+/* Hikaye */
+.p-story .art{width:56%}
+.p-story .art .scene{object-position:left 18%}
+.p-story .copy{max-width:470px}
+.facts{list-style:none;margin-top:30px;display:grid;gap:12px}
+.facts li{display:flex;gap:12px;align-items:flex-start;font-size:1rem;color:var(--ink-2)}
+.facts svg{width:20px;height:20px;flex:none;color:var(--pink-deep);margin-top:3px}
+
+/* Kahvelerimiz */
+.p-coffee .art{width:min(58%,820px);right:max(0px,calc((100vw - var(--wrap))/2 - 60px))}
+.p-coffee .art .scene{object-fit:contain;object-position:center;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 10%);mask-image:linear-gradient(90deg,transparent 0,#000 10%)}
+.picks{list-style:none;margin-top:28px;max-width:420px}
+.picks li{display:flex;align-items:baseline;gap:10px;padding:14px 0;border-bottom:1px solid var(--hair)}
+.picks li:first-child{border-top:1px solid var(--hair)}
+.picks .n{font-family:var(--serif);font-size:1.35rem;line-height:1.1}
+.picks i{flex:1;border-bottom:1px dotted rgba(0,0,0,.35);transform:translateY(-5px)}
+.picks .p{font-weight:600;font-variant-numeric:tabular-nums}
+.picks .p::after{content:" ₺";font-weight:500;color:var(--muted)}
+
+/* Kapanış: Awaken Your Coffee */
+.p-menu,.p-story,.p-coffee,.p-awaken{background:var(--paper-2)}
+.p-awaken .art{width:min(54%,760px);right:max(0px,calc((100vw - var(--wrap))/2 - 20px))}
+.p-awaken .art .scene{object-fit:contain;object-position:right bottom;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14%),linear-gradient(0deg,transparent 0,#000 8%);mask-image:linear-gradient(90deg,transparent 0,#000 14%);}
+
+.p-awaken .caps{margin-top:28px}
+.p-awaken .btn{margin-top:40px}
+
+/* ---------- Ziyaret / iletişim ---------- */
+.visit{padding-block:clamp(90px,12vh,140px);border-top:1px solid var(--hair)}
+.visit-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,80px);align-items:stretch}
+.visit .display{margin-bottom:34px}
+.info{display:grid;gap:26px}
+.info .lbl{font:600 .78rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.info p,.info a.big{font-size:1.15rem;line-height:1.5;color:var(--ink)}
+.info a.big{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;background:linear-gradient(var(--pink),var(--pink)) 0 100%/0 1.5px no-repeat;transition:background-size .45s var(--ease);padding-bottom:2px}
+.info a.big:hover{background-size:100% 1.5px}
+.hours{list-style:none;display:grid;max-width:380px}
+.hours li{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+.hours li.today{font-weight:700}
+.hours li.today span:first-child::after{content:"Bugün";margin-left:10px;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--pink-deep);padding:3px 8px;border-radius:999px;vertical-align:2px}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:.92rem;font-weight:600;margin-top:12px}
+.status::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.status.open::before{background:#0A8F4A;box-shadow:0 0 0 4px rgba(10,143,74,.15)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.map{position:relative;min-height:460px;border-radius:6px;overflow:hidden;border:1px solid var(--hair);background:#e9e6e0}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) contrast(1.05)}
+.map-pin{position:absolute;left:18px;bottom:18px;z-index:2;display:flex;align-items:center;gap:10px;background:var(--white);padding:12px 16px;border-radius:999px;box-shadow:0 8px 24px -12px rgba(0,0,0,.35);font-weight:600;font-size:.92rem;text-decoration:none}
+.map-pin svg{width:18px;height:18px;color:var(--pink-deep)}
+
+/* ---------- Footer ---------- */
+.footer{background:var(--ink);color:#fff;padding:80px 0 36px}
+.footer .logo{color:#fff}
+.f-top{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px;padding-bottom:56px;border-bottom:1px solid rgba(255,255,255,.16)}
+.f-top p{color:rgba(255,255,255,.72);margin-top:18px;max-width:30ch}
+.f-top h4{font:600 .78rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:16px}
+.f-top ul{list-style:none;display:grid;gap:4px}
+.f-top ul a{display:inline-flex;align-items:center;min-height:36px;text-decoration:none;color:#fff;background:linear-gradient(var(--pink),var(--pink)) 0 85%/0 1.5px no-repeat;transition:background-size .45s var(--ease)}
+.f-top ul a:hover{background-size:100% 1.5px}
+.f-big{font-family:var(--serif);font-size:clamp(2.1rem,11vw,10.5rem);line-height:.9;letter-spacing:-.03em;padding:44px 0 26px;color:#fff;white-space:nowrap}
+.f-big em{font-style:normal;color:var(--pink)}
+.f-bot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.85rem;color:rgba(255,255,255,.6)}
+
+/* Mobil aksiyon çubuğu */
+.actionbar{display:none}
+
+/* ---------- Hareket ---------- */
+.js [data-enter]{opacity:0;transform:translateY(18px);filter:blur(6px);transition:opacity 1s var(--ease),transform 1.1s var(--ease),filter 1s var(--ease)}
+.is-loaded [data-enter]{opacity:1;transform:none;filter:none}
+.is-loaded [data-enter="2"]{transition-delay:.12s}.is-loaded [data-enter="3"]{transition-delay:.24s}
+.is-loaded [data-enter="4"]{transition-delay:.36s}.is-loaded [data-enter="5"]{transition-delay:.48s}
+.js .hero .art{opacity:0;transform:translateX(30px);transition:opacity 1.4s var(--ease) .1s,transform 1.6s var(--ease) .1s}
+.is-loaded .hero .art{opacity:1;transform:none}
+/* Tek anlık "an": şimşek çizgisi kahve buharında parlıyor */
+.bolt-flash{position:absolute;inset:0;z-index:3;pointer-events:none;background:radial-gradient(60% 50% at 70% 30%,rgba(255,0,99,.14),transparent 70%);opacity:0}
+.is-loaded .bolt-flash{animation:flash 1.6s var(--ease) .9s 1 both}
+@keyframes flash{0%{opacity:0}12%{opacity:1}22%{opacity:.2}30%{opacity:.9}100%{opacity:0}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  [data-enter],.hero .art{opacity:1!important;transform:none!important;filter:none!important}
+}
+
+/* ---------- Duyarlı ---------- */
+@media (max-width:1100px){
+  .nav ul{gap:20px}
+  .items{grid-template-columns:1fr}
+}
+@media (max-width:920px){
+  :root{--nav-h:72px}
+  .nav ul,.nav .nav-cta{display:none}
+  .menu-btn{display:inline-flex}
+  .nav.open{background:var(--paper)}
+  .mobile-menu{position:fixed;inset:var(--nav-h) 0 0 0;z-index:49;background:var(--paper);display:flex;flex-direction:column;padding:28px var(--gutter) 40px;gap:4px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .35s var(--ease),transform .45s var(--ease),visibility 0s .35s}
+  .mobile-menu.open{opacity:1;transform:none;visibility:visible;transition:opacity .35s var(--ease),transform .45s var(--ease)}
+  .mobile-menu a.l{font-family:var(--serif);font-size:2.6rem;line-height:1.15;text-decoration:none;padding:6px 0;border-bottom:1px solid var(--hair)}
+  .mobile-menu .btn{margin-top:28px;width:100%}
+
+  .panel{min-height:auto;display:block}
+  .hero,.p-awaken{display:flex;flex-direction:column;min-height:100svh}
+  .hero{height:100svh;min-height:600px}
+  .hero .art,.p-awaken .art{flex:1 1 auto;min-height:0}
+  .hero .art .scene,.hero .art .scene svg{height:100%}
+  .p-awaken .art{display:flex;align-items:flex-end}
+  .copy{max-width:none;padding-block:calc(var(--nav-h) + 40px) 28px}
+  .art,.hero .art,.p-menu .art,.p-coffee .art,.p-awaken .art,.p-story .art{position:relative;width:100%;max-width:none;right:auto;height:auto;display:block}
+  .art .scene,.hero .art .scene,.p-menu .art .scene,.p-coffee .art .scene,.p-awaken .art .scene,.p-story .art .scene{height:auto;max-height:none;object-fit:contain;
+    -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 10%);mask-image:linear-gradient(180deg,transparent 0,#000 10%)}
+  .art .scene svg{height:auto}
+  .p-menu .art .scene{width:min(100%,520px);margin-left:auto}
+  .p-coffee .art .scene,.p-awaken .art .scene{width:min(100%,620px);margin-left:auto}
+  .panel:not(.hero) .copy{padding-top:96px}
+  .menu-grid,.visit-grid{grid-template-columns:1fr}
+  .menu-figure{position:relative;top:auto;max-width:520px}
+  .f-top{grid-template-columns:1fr 1fr}
+  .map{min-height:360px}
+  .actionbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:45;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(246,245,241,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--hair)}
+  .actionbar .btn{width:100%;min-height:48px;padding:0 12px}
+  body{padding-bottom:76px}
+}
+@media (min-width:921px){.mobile-menu{display:none}}
+@media (max-width:560px){
+  .h-hero{font-size:clamp(3rem,15vw,4.2rem)}
+  .h-sec{font-size:clamp(2.6rem,12.5vw,3.6rem)}
+  .caps{letter-spacing:.22em}
+  .copy .btn{width:100%}
+  .stats{gap:18px}
+  .stats b{font-size:1.7rem}
+  .cat-title{flex-direction:column;gap:4px}
+  .f-top{grid-template-columns:1fr}
+  .actions .btn{flex:1 1 100%}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9Z" fill="currentColor"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.8 9 3.5l1.6 4-2 1.4a11 11 0 0 0 6.5 6.5l1.4-2 4 1.6-.3 2.4a2 2 0 0 1-2.1 1.7C10.6 18.6 5.4 13.4 4.9 5.9a2 2 0 0 1 1.7-2.1Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 22 38"><path d="M14.5 0 1 21.5h8.2L5.8 38 21 14.6h-8.4Z" fill="#FF0063"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15M5 19l7-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Zeus Coffee ana sayfa">
+      <svg aria-hidden="true"><use href="#i-bolt"/></svg>
+      <b>ZEUS<small>COFFEE</small></b>
+    </a>
+    <nav aria-label="Ana menü">
+      <ul>
+        <li><a href="#menu">Menü</a></li>
+        <li><a href="#hikaye">Hakkımızda</a></li>
+        <li><a href="#kahvelerimiz">Kahvelerimiz</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--sm nav-cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Zeus%20Coffee%2C%20%C4%B0stiklal%20Mar%C5%9F%C4%B1%20Cad.%2042C%2C%20S%C3%BCleymanpa%C5%9Fa%2C%20Tekirda%C4%9F" target="_blank" rel="noopener">Yol Tarifi Al <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menüyü aç"><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a class="l" href="#menu">Menü</a>
+  <a class="l" href="#hikaye">Hakkımızda</a>
+  <a class="l" href="#kahvelerimiz">Kahvelerimiz</a>
+  <a class="l" href="#iletisim">İletişim</a>
+  <a class="btn btn--fill" href="tel:+905059959387">Bizi Arayın <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+</div>
+
+<main id="main">
+
+  <!-- 1 · HERO — referans görsel 1 -->
+  <section class="panel hero" id="top" aria-labelledby="hero-h">
+    <div class="bolt-flash" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="copy">
+        <p class="rule-title caps" data-enter="1">Kafe</p>
+        <h1 class="display h-hero" id="hero-h" data-enter="2">More Than <em>Coffee.</em><span class="sr-only"> Zeus Coffee: Süleymanpaşa, Tekirdağ'da kahve ve tatlı</span></h1>
+        <p class="caps" data-enter="3">İyi kahve. Daha iyi bir gün.</p>
+        <a class="btn" href="#menu" data-enter="4">Menüyü Keşfet <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <div class="hero-meta" data-enter="5">
+          <span><svg aria-hidden="true"><use href="#i-pin"/></svg>İstiklal Marşı Cad., Süleymanpaşa</span>
+          <span><svg aria-hidden="true"><use href="#i-star"/></svg>Google'da 4,9</span>
+        </div>
+      </div>
+    </div>
+    <div class="art">
+      <div class="scene" data-scene="hero"><svg viewBox="0 0 1082 941" preserveAspectRatio="xMaxYMax meet" role="img" aria-label="Defne taçlı Zeus bir kafe masasında oturmuş, elindeki fincandan buhar yükseliyor; tepede pembe ışıklı lamba hafifçe sallanıyor"><defs><mask id="he-static" maskUnits="userSpaceOnUse" x="-40" y="-40" width="1162" height="1021"><rect x="-40" y="-40" width="1162" height="1021" fill="#fff"/><polygon points="188,158 292,158 294,336 256,342 222,342 198,330" fill="#000"/><polygon points="770,-2 812,-2 812,80 898,148 898,188 682,188 682,148 768,80" fill="#000"/><polygon points="904,448 1078,448 1078,666 904,666" fill="#000"/></mask><mask id="he-lamp" maskUnits="userSpaceOnUse" x="-40" y="-40" width="1162" height="1021"><rect x="-40" y="-40" width="1162" height="1021" fill="#000"/><polygon points="770,-2 812,-2 812,80 898,148 898,188 682,188 682,148 768,80" fill="#fff"/></mask><mask id="he-plant" maskUnits="userSpaceOnUse" x="-40" y="-40" width="1162" height="1021"><rect x="-40" y="-40" width="1162" height="1021" fill="#000"/><polygon points="904,448 1078,448 1078,666 904,666" fill="#fff"/></mask><radialGradient id="he-glow" cx="50%" cy="0%" r="95%"><stop offset="0" stop-color="#FF0063" stop-opacity=".34"/><stop offset=".45" stop-color="#FF0063" stop-opacity=".1"/><stop offset="1" stop-color="#FF0063" stop-opacity="0"/></radialGradient><filter id="he-blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="22"/></filter></defs><g class="world"><rect width="1082" height="941" fill="#F6F6F2"/><image href="img/hero-zeus.jpg" width="1082" height="941" mask="url(#he-static)"/><g class="plant"><image href="img/hero-zeus.jpg" width="1082" height="941" mask="url(#he-plant)"/></g><g class="steam"><g class="wisp"><path d="M240 338 C 214 310, 268 290, 240 262 S 220 214, 262 180 S 282 150, 270 136" fill="none" stroke="#151515" stroke-width="6.5" stroke-linecap="round"/><path d="M240 338 C 214 310, 268 290, 240 262 S 220 214, 262 180 S 282 150, 270 136" fill="none" stroke="#FF0063" stroke-width="3.6" stroke-linecap="round"/></g><g class="wisp"><path d="M254 336 C 282 312, 228 288, 258 256 S 286 212, 250 174" fill="none" stroke="#151515" stroke-width="6.5" stroke-linecap="round"/><path d="M254 336 C 282 312, 228 288, 258 256 S 286 212, 250 174" fill="none" stroke="#FF0063" stroke-width="3.6" stroke-linecap="round"/></g><g class="wisp"><path d="M232 334 C 204 300, 250 280, 224 238" fill="none" stroke="#151515" stroke-width="6.5" stroke-linecap="round"/><path d="M232 334 C 204 300, 250 280, 224 238" fill="none" stroke="#FF0063" stroke-width="3.6" stroke-linecap="round"/></g></g><g class="lamp"><path class="glow" d="M712 178 L 870 178 L 990 520 L 592 520 Z" fill="url(#he-glow)" filter="url(#he-blur)" style="mix-blend-mode:multiply"/><image href="img/hero-zeus.jpg" width="1082" height="941" mask="url(#he-lamp)"/></g></g></svg></div>
+    </div>
+  </section>
+
+  <!-- 2 · OUR MENU — İlahi Kahve Seçkisi -->
+  <section class="panel p-menu" aria-labelledby="sel-h">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow">Menümüz</p>
+        <h2 class="display h-sec" id="sel-h">İlahi Kahve <em>Seçkisi.</em></h2>
+        <p class="lede" style="margin-top:28px">Double espressodan tuzlu karamel latteye, demli çaydan Zeus Waffle'a. Her fincan siparişle, sizin için hazırlanır.</p>
+        <div class="stats">
+          <div><b>21</b><span>sıcak kahve</span></div>
+          <div><b>13</b><span>soğuk kahve</span></div>
+          <div><b>40 ₺</b><span>bir bardak çay</span></div>
+        </div>
+        <a class="btn" href="#menu">Menüyü Gör <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="art">
+      <div class="scene" data-scene="pour"><svg viewBox="0 0 400 585" preserveAspectRatio="xMaxYMid meet" role="img" aria-label="Zeus'un eli şimşek desenli gümüş cezveden fincana kahve döküyor, çekirdekler havada süzülüyor"><defs><mask id="po-static" maskUnits="userSpaceOnUse" x="-40" y="-40" width="480" height="665"><rect x="-40" y="-40" width="480" height="665" fill="#fff"/><polygon points="60,256 104,250 97,300 93,350 95,396 70,396 72,352 66,300" fill="#000"/><circle cx="34" cy="352" r="16" fill="#000"/><circle cx="140" cy="362" r="15" fill="#000"/><circle cx="205" cy="408" r="14" fill="#000"/><circle cx="268" cy="385" r="21" fill="#000"/><circle cx="255" cy="450" r="23" fill="#000"/></mask><clipPath id="po-stream"><polygon points="60,256 104,250 97,300 93,350 95,396 70,396 72,352 66,300"/></clipPath><mask id="po-grow" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="585"><rect class="grow" x="40" y="246" width="90" height="172" fill="#fff"/></mask><mask id="po-b0" maskUnits="userSpaceOnUse" x="-40" y="-40" width="480" height="665"><rect x="-40" y="-40" width="480" height="665" fill="#000"/><circle cx="34" cy="352" r="16" fill="#fff"/></mask><mask id="po-b1" maskUnits="userSpaceOnUse" x="-40" y="-40" width="480" height="665"><rect x="-40" y="-40" width="480" height="665" fill="#000"/><circle cx="140" cy="362" r="15" fill="#fff"/></mask><mask id="po-b2" maskUnits="userSpaceOnUse" x="-40" y="-40" width="480" height="665"><rect x="-40" y="-40" width="480" height="665" fill="#000"/><circle cx="205" cy="408" r="14" fill="#fff"/></mask><mask id="po-b3" maskUnits="userSpaceOnUse" x="-40" y="-40" width="480" height="665"><rect x="-40" y="-40" width="480" height="665" fill="#000"/><circle cx="268" cy="385" r="21" fill="#fff"/></mask><mask id="po-b4" maskUnits="userSpaceOnUse" x="-40" y="-40" width="480" height="665"><rect x="-40" y="-40" width="480" height="665" fill="#000"/><circle cx="255" cy="450" r="23" fill="#fff"/></mask></defs><g class="world"><rect width="400" height="585" fill="#F2EEEB"/><image href="img/zeus-pour.jpg" width="400" height="585" mask="url(#po-static)"/><g mask="url(#po-grow)"><image href="img/zeus-pour.jpg" width="400" height="585" clip-path="url(#po-stream)"/></g><g class="bean" data-x="34" data-y="352"><image href="img/zeus-pour.jpg" width="400" height="585" mask="url(#po-b0)"/></g><g class="bean" data-x="140" data-y="362"><image href="img/zeus-pour.jpg" width="400" height="585" mask="url(#po-b1)"/></g><g class="bean" data-x="205" data-y="408"><image href="img/zeus-pour.jpg" width="400" height="585" mask="url(#po-b2)"/></g><g class="bean" data-x="268" data-y="385"><image href="img/zeus-pour.jpg" width="400" height="585" mask="url(#po-b3)"/></g><g class="bean" data-x="255" data-y="450"><image href="img/zeus-pour.jpg" width="400" height="585" mask="url(#po-b4)"/></g><g class="burst"><circle cx="84" cy="410" r="4" fill="#7A0F35"/><circle cx="84" cy="410" r="3" fill="#FF0063"/><circle cx="84" cy="410" r="3.5" fill="#5a0b27"/><circle cx="84" cy="410" r="2.5" fill="#FF0063"/><circle cx="84" cy="410" r="3" fill="#7A0F35"/><circle cx="84" cy="410" r="2" fill="#5a0b27"/><circle cx="84" cy="410" r="2.5" fill="#FF0063"/><circle cx="84" cy="410" r="3" fill="#7A0F35"/></g></g></svg></div>
+    </div>
+  </section>
+
+  <!-- 3 · TAM MENÜ -->
+  <section class="menu" id="menu" aria-labelledby="menu-h">
+    <div class="wrap menu-grid">
+      <div class="menu-figure">
+        <div class="frame">
+          <div class="scene" data-scene="iced"><svg viewBox="0 0 800 926" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Defne taçlı Zeus elinde buzlu soğuk kahve tutuyor; bardağa buz küpleri düşüyor, kabarcıklar yükseliyor"><defs><clipPath id="ic-glass"><polygon points="98,314 152,312 148,478 98,480"/></clipPath><clipPath id="ic-fall"><rect x="-200" y="-400" width="1200" height="704"/><polygon points="54,300 160,300 152,470 62,470"/></clipPath></defs><g class="world"><rect width="800" height="926" fill="#F8F7F3"/><g class="figure"><image href="img/zeus-iced.jpg" width="800" height="926"/><g class="bubbles" clip-path="url(#ic-glass)"><circle cx="108" cy="478" r="3" fill="none" stroke="#fff" stroke-width="1.4" opacity=".85"/><circle cx="122" cy="478" r="2.2" fill="none" stroke="#fff" stroke-width="1.4" opacity=".85"/><circle cx="134" cy="478" r="3.4" fill="none" stroke="#fff" stroke-width="1.4" opacity=".85"/><circle cx="144" cy="478" r="2" fill="none" stroke="#fff" stroke-width="1.4" opacity=".85"/><circle cx="116" cy="478" r="2.6" fill="none" stroke="#fff" stroke-width="1.4" opacity=".85"/><circle cx="140" cy="478" r="2.8" fill="none" stroke="#fff" stroke-width="1.4" opacity=".85"/></g><g class="ice" clip-path="url(#ic-fall)"><rect class="cube" x="86" y="0" width="28" height="28" rx="5" fill="#FF5C98" stroke="#151515" stroke-width="2.4"/><rect class="cube" x="116" y="0" width="24" height="24" rx="5" fill="#F4F2F2" stroke="#151515" stroke-width="2.4"/><rect class="cube" x="100" y="0" width="22" height="22" rx="5" fill="#FF7AAE" stroke="#151515" stroke-width="2.4"/></g><g class="rim-drops"><circle cx="90" cy="300" r="3" fill="#FF0063"/><circle cx="104" cy="300" r="2.4" fill="#1c1517"/><circle cx="126" cy="300" r="3.2" fill="#FF0063"/><circle cx="142" cy="300" r="2.2" fill="#1c1517"/><circle cx="114" cy="300" r="2" fill="#FF0063"/></g></g></g></svg></div>
+        </div>
+      </div>
+      <div>
+        <div class="menu-head">
+          <h2 class="display h-sec" id="menu-h">Tüm <em>Menü.</em></h2>
+          <p class="lede">Kahveden tatlıya tüm liste ve güncel fiyatlar. İmzalı ürünlerimizi şimşekle işaretledik.</p>
+        </div>
+        <ul class="chips" aria-label="Menü kategorileri">
+          <li><a href="#sicak-kahveler">Sıcak Kahveler</a></li>
+          <li><a href="#soguk-kahveler">Soğuk Kahveler</a></li>
+          <li><a href="#sicak-icecekler">Sıcak İçecekler</a></li>
+          <li><a href="#caylar">Çaylar</a></li>
+          <li><a href="#tatlilar">Tatlılar</a></li>
+          <li><a href="#mesrubatlar">Meşrubatlar</a></li>
+        </ul>
+
+        <div class="cat" id="sicak-kahveler">
+          <div class="cat-title"><h3>Sıcak <em>Kahveler</em></h3><span>21 çeşit</span></div>
+          <ul class="items">
+            <li><span class="n">Double Espresso</span><i></i><span class="p">130</span></li>
+            <li><span class="n">Caffè Americano</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Cappuccino</span><i></i><span class="p">150</span></li>
+            <li><span class="n">Latte</span><i></i><span class="p">150</span></li>
+            <li><span class="n">Cortado</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Flat White</span><i></i><span class="p">150</span></li>
+            <li><span class="n">Macchiato</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Filtre Kahve</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Türk Kahvesi</span><i></i><span class="p">110</span></li>
+            <li class="sig"><span class="n">Tiramisu Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Coconut Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Cookie Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Pumpkin Spice Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Vanilya Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Fındık Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Toffee Nut Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Karamel Latte</span><i></i><span class="p">170</span></li>
+            <li class="sig"><span class="n">Tuzlu Karamel Latte</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Karamel Macchiato</span><i></i><span class="p">170</span></li>
+            <li><span class="n">Mocha</span><i></i><span class="p">180</span></li>
+            <li><span class="n">White Mocha</span><i></i><span class="p">180</span></li>
+          </ul>
+        </div>
+
+        <div class="cat" id="soguk-kahveler">
+          <div class="cat-title"><h3>Soğuk <em>Kahveler</em></h3><span>13 çeşit</span></div>
+          <ul class="items">
+            <li><span class="n">Iced Americano</span><i></i><span class="p">150</span></li>
+            <li><span class="n">Iced Latte</span><i></i><span class="p">160</span></li>
+            <li class="sig"><span class="n">Iced Tiramisu Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Cookie Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Pumpkin Spice Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Vanilya Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Fındık Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Coconut Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Toffee Nut Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Karamel Latte</span><i></i><span class="p">180</span></li>
+            <li class="sig"><span class="n">Iced Tuzlu Karamel Latte</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced Karamel Mocha</span><i></i><span class="p">180</span></li>
+            <li><span class="n">Iced White Mocha</span><i></i><span class="p">190</span></li>
+          </ul>
+        </div>
+
+        <div class="cat" id="sicak-icecekler">
+          <div class="cat-title"><h3>Sıcak <em>İçecekler</em></h3><span>5 çeşit</span></div>
+          <ul class="items">
+            <li><span class="n">Sıcak Çikolata</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Sıcak Beyaz Çikolata</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Çilekli Süt</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Mavi Karamel</span><i></i><span class="p">140</span></li>
+            <li><span class="n">Chai Tea Latte</span><i></i><span class="p">140</span></li>
+          </ul>
+        </div>
+
+        <div class="cat" id="caylar">
+          <div class="cat-title"><h3><em>Çaylar</em></h3><span>6 çeşit</span></div>
+          <ul class="items">
+            <li><span class="n">Bardak Çay</span><i></i><span class="p">40</span></li>
+            <li><span class="n">Fincan Çay</span><i></i><span class="p">50</span></li>
+            <li><span class="n">Yeşil Çay</span><i></i><span class="p">130</span></li>
+            <li><span class="n">Adaçayı</span><i></i><span class="p">130</span></li>
+            <li><span class="n">Ihlamur</span><i></i><span class="p">130</span></li>
+            <li><span class="n">Kış Çayı</span><i></i><span class="p">130</span></li>
+          </ul>
+        </div>
+
+        <div class="cat" id="tatlilar">
+          <div class="cat-title"><h3><em>Tatlılar</em></h3><span>5 çeşit</span></div>
+          <ul class="items">
+            <li class="sig"><span class="n">Zeus Waffle<small>Tek kişilik</small></span><i></i><span class="p">280</span></li>
+            <li class="sig"><span class="n">Zeus Waffle<small>Çift kişilik</small></span><i></i><span class="p">350</span></li>
+            <li><span class="n">San Sebastian</span><i></i><span class="p">220</span></li>
+            <li><span class="n">Oreolu Magnolia</span><i></i><span class="p">210</span></li>
+            <li><span class="n">Çilekli Magnolia</span><i></i><span class="p">200</span></li>
+          </ul>
+        </div>
+
+        <div class="cat" id="mesrubatlar">
+          <div class="cat-title"><h3><em>Meşrubatlar</em></h3><span>6 çeşit</span></div>
+          <ul class="items">
+            <li><span class="n">Su</span><i></i><span class="p">40</span></li>
+            <li><span class="n">Soda</span><i></i><span class="p">55</span></li>
+            <li><span class="n">Meyveli Soda</span><i></i><span class="p">90</span></li>
+            <li><span class="n">Fuse Tea</span><i></i><span class="p">90</span></li>
+            <li><span class="n">Kola</span><i></i><span class="p">90</span></li>
+            <li><span class="n">Churchill</span><i></i><span class="p">90</span></li>
+          </ul>
+        </div>
+
+        <p class="menu-note">Fiyatlar Türk lirasıdır ve kafedeki QR menüyle aynıdır. Alerjen bilgisi için ekibimize sorabilirsiniz.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · OUR STORY — referans görsel 2, sol alt -->
+  <section class="panel p-story" id="hikaye" aria-labelledby="story-h">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow">Hikayemiz</p>
+        <h2 class="display h-sec" id="story-h">Her Fincanda Bir <em>Efsane.</em></h2>
+        <p class="lede" style="margin-top:28px">Zeus Coffee bir kahve dükkanından fazlası: iyi lezzetin, güler yüzün ve sakin bir molanın buluştuğu yer. Tekirdağ Büyükşehir Belediyesi binasının hemen arka sokağındayız.</p>
+        <ul class="facts">
+          <li><svg aria-hidden="true"><use href="#i-star"/></svg><span>53 Google yorumunda <b>4,9</b> puan</span></li>
+          <li><svg aria-hidden="true"><use href="#i-clock"/></svg><span>Hafta içi sabah 08:00'den gece 23:00'e kadar açık</span></li>
+          <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Atatürk Mahallesi, İstiklal Marşı Caddesi</span></li>
+        </ul>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Zeus%20Coffee%20S%C3%BCleymanpa%C5%9Fa%20Tekirda%C4%9F" target="_blank" rel="noopener">Yorumları Oku <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="art">
+      <div class="scene" data-scene="story"><svg viewBox="0 0 418 429" preserveAspectRatio="xMinYMin slice" role="img" aria-label="Profilden Zeus portresi: defne tacı, gür sakal, başının çevresinde pembe enerji halkaları"><defs><clipPath id="st-aura"><rect x="262" y="30" width="170" height="300"/></clipPath></defs><g class="world"><rect width="418" height="429" fill="#F5F1EE"/><g class="portrait"><image href="img/zeus-story.jpg" width="418" height="429"/></g><g class="aura" clip-path="url(#st-aura)"><circle cx="205" cy="186" r="112" fill="none" stroke="#FF0063" stroke-width="1.6" stroke-linecap="round"/><circle cx="205" cy="186" r="136" fill="none" stroke="#FF0063" stroke-width="1.2" stroke-linecap="round"/><circle cx="205" cy="186" r="161" fill="none" stroke="#FF0063" stroke-width="1.8" stroke-linecap="round"/><circle cx="205" cy="186" r="188" fill="none" stroke="#FF0063" stroke-width="1.1" stroke-linecap="round"/></g><g class="sparks" fill="none" stroke="#FF0063" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><polyline points="352,120 340,138 352,140 336,166"/><polyline points="388,218 372,232 384,236 366,262"/><polyline points="318,268 330,282 320,286 336,306"/></g></g></svg></div>
+    </div>
+  </section>
+
+  <!-- 5 · OUR COFFEE — referans görsel 2, sağ alt -->
+  <section class="panel p-coffee" id="kahvelerimiz" aria-labelledby="coffee-h">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow">Kahvelerimiz</p>
+        <h2 class="display h-sec" id="coffee-h">Güçlü Lezzet. <em>İlahi Enerji.</em></h2>
+        <ul class="picks">
+          <li><span class="n">Tiramisu Latte</span><i></i><span class="p">170</span></li>
+          <li><span class="n">Iced Tuzlu Karamel Latte</span><i></i><span class="p">180</span></li>
+          <li><span class="n">Zeus Waffle</span><i></i><span class="p">280</span></li>
+        </ul>
+        <a class="btn" href="tel:+905059959387">Al-Götür İçin Arayın <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="art">
+      <div class="scene" data-scene="cup"><svg viewBox="0 0 526 429" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Şimşek logolu Zeus Coffee karton bardağı havadan düşüp sütun başlığına çarpıyor, kahve etrafa sıçrıyor"><defs><mask id="cu-static" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#fff"/><polygon points="141,101 145,40 200,28 300,29 354,40 355,101 341,110 331,296 181,296 160,110" fill="#000"/><polygon points="25,375 40,350 75,320 110,300 160,292 322,292 345,255 375,225 410,200 440,192 446,262 430,300 405,335 385,365 355,392 300,402 220,400 150,398 110,386 70,386" fill="#000"/><circle cx="155" cy="270" r="10" fill="#000"/><circle cx="130" cy="290" r="8" fill="#000"/><circle cx="380" cy="150" r="10" fill="#000"/><circle cx="372" cy="184" r="9" fill="#000"/><circle cx="418" cy="178" r="11" fill="#000"/><circle cx="405" cy="213" r="9" fill="#000"/><circle cx="100" cy="68" r="25" fill="#000"/><circle cx="130" cy="150" r="18" fill="#000"/><circle cx="100" cy="232" r="28" fill="#000"/><circle cx="62" cy="288" r="28" fill="#000"/><circle cx="420" cy="392" r="22" fill="#000"/><circle cx="92" cy="410" r="10" fill="#000"/></mask><mask id="cu-cup" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><polygon points="141,101 145,40 200,28 300,29 354,40 355,101 341,110 331,296 181,296 160,110" fill="#fff"/></mask><mask id="cu-splash" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><polygon points="25,375 40,350 75,320 110,300 160,292 322,292 345,255 375,225 410,200 440,192 446,262 430,300 405,335 385,365 355,392 300,402 220,400 150,398 110,386 70,386" fill="#fff"/></mask><mask id="cu-d0" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="155" cy="270" r="10" fill="#fff"/></mask><mask id="cu-d1" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="130" cy="290" r="8" fill="#fff"/></mask><mask id="cu-d2" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="380" cy="150" r="10" fill="#fff"/></mask><mask id="cu-d3" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="372" cy="184" r="9" fill="#fff"/></mask><mask id="cu-d4" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="418" cy="178" r="11" fill="#fff"/></mask><mask id="cu-d5" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="405" cy="213" r="9" fill="#fff"/></mask><mask id="cu-b0" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="100" cy="68" r="25" fill="#fff"/></mask><mask id="cu-b1" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="130" cy="150" r="18" fill="#fff"/></mask><mask id="cu-b2" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="100" cy="232" r="28" fill="#fff"/></mask><mask id="cu-b3" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="62" cy="288" r="28" fill="#fff"/></mask><mask id="cu-b4" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="420" cy="392" r="22" fill="#fff"/></mask><mask id="cu-b5" maskUnits="userSpaceOnUse" x="-40" y="-40" width="606" height="509"><rect x="-40" y="-40" width="606" height="509" fill="#000"/><circle cx="92" cy="410" r="10" fill="#fff"/></mask></defs><g class="world"><rect width="526" height="429" fill="#F4F0ED"/><circle cx="385" cy="183" r="72" fill="#F40863"/><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-static)"/><g class="cup-drop"><g class="cup-squash"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-cup)"/></g></g><g class="splash"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-splash)"/></g><g class="drop" data-x="155" data-y="270"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-d0)"/></g><g class="drop" data-x="130" data-y="290"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-d1)"/></g><g class="drop" data-x="380" data-y="150"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-d2)"/></g><g class="drop" data-x="372" data-y="184"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-d3)"/></g><g class="drop" data-x="418" data-y="178"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-d4)"/></g><g class="drop" data-x="405" data-y="213"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-d5)"/></g><g class="bean" data-x="100" data-y="68"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-b0)"/></g><g class="bean" data-x="130" data-y="150"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-b1)"/></g><g class="bean" data-x="100" data-y="232"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-b2)"/></g><g class="bean" data-x="62" data-y="288"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-b3)"/></g><g class="bean" data-x="420" data-y="392"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-b4)"/></g><g class="bean" data-x="92" data-y="410"><image href="img/zeus-cup.jpg" width="526" height="429" mask="url(#cu-b5)"/></g></g></svg></div>
+    </div>
+  </section>
+
+  <!-- 6 · AWAKEN — referans görsel 2, sol üst -->
+  <section class="panel p-awaken" aria-labelledby="awaken-h">
+    <div class="wrap">
+      <div class="copy">
+        <h2 class="display h-sec" id="awaken-h">Kahveni <em>Uyandır.</em></h2>
+        <p class="caps">Gücünü Zeus'tan alır</p>
+        <a class="btn btn--fill" href="#iletisim">Bizi Ziyaret Edin <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="art">
+      <div class="scene" data-scene="sip"><svg viewBox="0 0 435 500" preserveAspectRatio="xMaxYMax meet" role="img" aria-label="Zeus şimşek desenli fincanından kahvesini yudumluyor; arkasında bir şimşek çakıyor"><defs><mask id="si-static" maskUnits="userSpaceOnUse" x="-40" y="-40" width="515" height="580"><rect x="-40" y="-40" width="515" height="580" fill="#fff"/><polygon points="0,0 88,0 88,84 62,90 58,132 0,134" fill="#000"/></mask></defs><g class="world"><rect width="435" height="500" fill="#F6F3EF"/><image href="img/zeus-sip.jpg" width="435" height="500" mask="url(#si-static)"/><g class="steam"><g class="wisp"><path d="M86 92 C 64 72, 34 84, 46 54 S 24 20, 44 2" fill="none" stroke="#151515" stroke-width="6.5" stroke-linecap="round"/><path d="M86 92 C 64 72, 34 84, 46 54 S 24 20, 44 2" fill="none" stroke="#FF0063" stroke-width="3.6" stroke-linecap="round"/></g><g class="wisp"><path d="M100 88 C 94 62, 62 58, 70 34 S 58 8, 72 -8" fill="none" stroke="#151515" stroke-width="6.5" stroke-linecap="round"/><path d="M100 88 C 94 62, 62 58, 70 34 S 58 8, 72 -8" fill="none" stroke="#FF0063" stroke-width="3.6" stroke-linecap="round"/></g><g class="wisp"><path d="M78 94 C 52 82, 30 104, 18 80" fill="none" stroke="#151515" stroke-width="6.5" stroke-linecap="round"/><path d="M78 94 C 52 82, 30 104, 18 80" fill="none" stroke="#FF0063" stroke-width="3.6" stroke-linecap="round"/></g></g><g class="bolt"><polygon points="372,-6 334,74 356,74 326,150 392,56 366,56 392,-6" fill="#FF0063" stroke="#151515" stroke-width="2.5" stroke-linejoin="round"/></g><circle class="ring" cx="300" cy="112" r="74" fill="none" stroke="#FF0063" stroke-width="3"/><rect class="flash" width="435" height="500" fill="#fff"/></g></svg></div>
+    </div>
+  </section>
+
+  <!-- 7 · İLETİŞİM -->
+  <section class="visit" id="iletisim" aria-labelledby="visit-h">
+    <div class="wrap visit-grid">
+      <div>
+        <h2 class="display h-sec" id="visit-h">Tekirdağ'da <em>Buradayız.</em></h2>
+        <div class="info">
+          <div>
+            <p class="lbl">Adres</p>
+            <p>Atatürk Mah. İstiklal Marşı Cad. No:42/C<br>59030 Süleymanpaşa / Tekirdağ</p>
+          </div>
+          <div>
+            <p class="lbl">Telefon ve Instagram</p>
+            <p style="display:grid;justify-items:start"><a class="big" href="tel:+905059959387">0505 995 93 87</a>
+            <a class="big" href="https://www.instagram.com/zeuscoffee_59/" target="_blank" rel="noopener">@zeuscoffee_59</a></p>
+          </div>
+          <div>
+            <p class="lbl">Çalışma Saatleri</p>
+            <ul class="hours" id="hours">
+              <li data-d="1"><span>Pazartesi</span><span>08:00 – 23:00</span></li>
+              <li data-d="2"><span>Salı</span><span>08:00 – 23:00</span></li>
+              <li data-d="3"><span>Çarşamba</span><span>08:00 – 23:00</span></li>
+              <li data-d="4"><span>Perşembe</span><span>08:00 – 23:00</span></li>
+              <li data-d="5"><span>Cuma</span><span>08:00 – 23:00</span></li>
+              <li data-d="6"><span>Cumartesi</span><span>10:00 – 23:00</span></li>
+              <li data-d="0"><span>Pazar</span><span>14:00 – 23:00</span></li>
+            </ul>
+            <p class="status" id="status" aria-live="polite"></p>
+          </div>
+          <div class="actions">
+            <a class="btn btn--fill" href="https://www.google.com/maps/dir/?api=1&amp;destination=Zeus%20Coffee%2C%20%C4%B0stiklal%20Mar%C5%9F%C4%B1%20Cad.%2042C%2C%20S%C3%BCleymanpa%C5%9Fa%2C%20Tekirda%C4%9F" target="_blank" rel="noopener">Yol Tarifi Al <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn" href="tel:+905059959387">Hemen Ara <svg aria-hidden="true"><use href="#i-phone"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <iframe title="Zeus Coffee konumu, Google Haritalar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Zeus+Coffee,+%C4%B0stiklal+Mar%C5%9F%C4%B1+Cad.+42C,+S%C3%BCleymanpa%C5%9Fa,+Tekirda%C4%9F&amp;z=16&amp;output=embed"></iframe>
+        <a class="map-pin" href="https://www.google.com/maps/search/?api=1&amp;query=Zeus%20Coffee%20S%C3%BCleymanpa%C5%9Fa%20Tekirda%C4%9F" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Haritada Aç</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="f-top">
+      <div>
+        <a class="logo" href="#top" aria-label="Zeus Coffee ana sayfa"><svg aria-hidden="true"><use href="#i-bolt"/></svg><b>ZEUS<small>COFFEE</small></b></a>
+        <p>Süleymanpaşa'nın kalbinde iyi kahve, iyi tatlı ve iyi bir mola.</p>
+      </div>
+      <div>
+        <h4>Keşfet</h4>
+        <ul><li><a href="#menu">Menü</a></li><li><a href="#hikaye">Hakkımızda</a></li><li><a href="#kahvelerimiz">Kahvelerimiz</a></li></ul>
+      </div>
+      <div>
+        <h4>İletişim</h4>
+        <ul><li><a href="tel:+905059959387">0505 995 93 87</a></li><li><a href="https://www.instagram.com/zeuscoffee_59/" target="_blank" rel="noopener">Instagram</a></li><li><a href="#iletisim">Yol tarifi</a></li></ul>
+      </div>
+      <div>
+        <h4>Saatler</h4>
+        <ul><li><a href="#iletisim">Hafta içi 08–23</a></li><li><a href="#iletisim">Cumartesi 10–23</a></li><li><a href="#iletisim">Pazar 14–23</a></li></ul>
+      </div>
+    </div>
+    <p class="f-big" aria-hidden="true">More Than <em>Coffee.</em></p>
+    <div class="f-bot">
+      <span>© 2026 Zeus Coffee · Süleymanpaşa, Tekirdağ</span>
+      <span>İstiklal Marşı Caddesi, Atatürk Mahallesi</span>
+    </div>
+  </div>
+</footer>
+
+<div class="actionbar" aria-label="Hızlı işlemler">
+  <a class="btn" href="tel:+905059959387">Ara <svg aria-hidden="true"><use href="#i-phone"/></svg></a>
+  <a class="btn btn--fill" href="https://www.google.com/maps/dir/?api=1&amp;destination=Zeus%20Coffee%2C%20%C4%B0stiklal%20Mar%C5%9F%C4%B1%20Cad.%2042C%2C%20S%C3%BCleymanpa%C5%9Fa%2C%20Tekirda%C4%9F" target="_blank" rel="noopener">Yol Tarifi <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="js/scenes.js" defer></script>
+<script>
+(() => {
+  const root = document.documentElement;
+  requestAnimationFrame(() => requestAnimationFrame(() => root.classList.add('is-loaded')));
+
+  // Kaydırınca header zemini
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('is-stuck', scrollY > 24);
+  addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // Mobil menü
+  const btn = document.getElementById('menuBtn'), mm = document.getElementById('mobileMenu');
+  const setMenu = open => {
+    btn.setAttribute('aria-expanded', open); btn.setAttribute('aria-label', open ? 'Menüyü kapat' : 'Menüyü aç');
+    mm.classList.toggle('open', open); nav.classList.toggle('open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  };
+  btn.addEventListener('click', () => setMenu(btn.getAttribute('aria-expanded') !== 'true'));
+  mm.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  addEventListener('keydown', e => { if (e.key === 'Escape' && mm.classList.contains('open')) { setMenu(false); btn.focus(); } });
+
+  // Bugünün saatleri ve açık/kapalı durumu (Türkiye saati)
+  const hrs = {0:[14,23],1:[8,23],2:[8,23],3:[8,23],4:[8,23],5:[8,23],6:[10,23]};
+  const tr = new Date(new Date().toLocaleString('en-US', {timeZone:'Europe/Istanbul'}));
+  const d = tr.getDay(), h = tr.getHours() + tr.getMinutes()/60;
+  document.querySelector(`#hours li[data-d="${d}"]`)?.classList.add('today');
+  const [o,c] = hrs[d], st = document.getElementById('status');
+  if (h >= o && h < c) { st.classList.add('open'); st.textContent = `Şu an açık · 23:00'te kapanıyor`; }
+  else { const nd = h >= c ? (d+1)%7 : d; st.textContent = `Şu an kapalı · ${h >= c ? 'yarın' : 'bugün'} ${String(hrs[nd][0]).padStart(2,'0')}:00'de açılıyor`; }
+
+  // Aktif menü bağlantısı
+  const links = [...document.querySelectorAll('.nav ul a')];
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) links.forEach(l => l.setAttribute('aria-current', l.hash === '#' + e.target.id));
+  }), {rootMargin:'-45% 0px -50% 0px'});
+  ['menu','hikaye','kahvelerimiz','iletisim'].forEach(id => io.observe(document.getElementById(id)));
+})();
+</script>
+</body>
+</html>
